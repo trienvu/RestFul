@@ -10,7 +10,7 @@
 		<!-- Register resources and providers under de.vogella.jersey.todo -->
 		<init-param>
 			<param-name>org.glassfish.jersey.servlet.ServletContainer</param-name>
-			<param-value>de.vogella.jersey.todo.resources</param-value>
+			<param-value>de.vogella.jersey.todo</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>

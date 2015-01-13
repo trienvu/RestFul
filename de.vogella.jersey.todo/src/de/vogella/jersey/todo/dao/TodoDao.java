@@ -1,7 +1,9 @@
-package de.vogella.jersey.todo;
+package de.vogella.jersey.todo.dao;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import de.vogella.jersey.todo.model.Todo;
 
 public enum TodoDao {
 	instance;

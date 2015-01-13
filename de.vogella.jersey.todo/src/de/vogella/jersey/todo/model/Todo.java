@@ -1,4 +1,4 @@
-package de.vogella.jersey.todo;
+package de.vogella.jersey.todo.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
