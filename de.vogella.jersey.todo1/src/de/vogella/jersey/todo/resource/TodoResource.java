@@ -1,4 +1,4 @@
-package de.vogella.jersey.todo.resources;
+package de.vogella.jersey.todo.resource;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -13,6 +13,7 @@ import javax.xml.bind.JAXBElement;
 
 import de.vogella.jersey.todo.dao.TodoDao;
 import de.vogella.jersey.todo.model.Todo;
+
 
 public class TodoResource {
   @Context

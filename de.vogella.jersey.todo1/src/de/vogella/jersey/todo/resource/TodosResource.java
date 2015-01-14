@@ -1,4 +1,4 @@
-package de.vogella.jersey.todo.resources;
+package de.vogella.jersey.todo.resource;
 
 import java.io.IOException;
 import java.util.ArrayList;
