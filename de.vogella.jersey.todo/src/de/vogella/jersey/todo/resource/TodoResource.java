@@ -3,6 +3,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -14,7 +15,7 @@ import javax.xml.bind.JAXBElement;
 import de.vogella.jersey.todo.dao.TodoDao;
 import de.vogella.jersey.todo.model.Todo;
 
-
+@Path(value = "/todo") 
 public class TodoResource {
   @Context
   UriInfo uriInfo;
@@ -34,6 +35,7 @@ public class TodoResource {
     Todo todo = TodoDao.instance.getModel().get(id);
     if(todo==null)
       throw new RuntimeException("Get: Todo with " + id +  " not found");
+    System.out.println("xxx==============================");
     return todo;
   }
   
@@ -64,14 +66,13 @@ public class TodoResource {
   private Response putAndGetResponse(Todo todo) {
     Response res;
     if(TodoDao.instance.getModel().containsKey(todo.getId())) {
+    	System.out.println("has element +++++++++++++++++++++++++");
       res = Response.noContent().build();
     } else {
-      res = Response.created(uriInfo.getAbsolutePath()).build();
+    	System.out.println("dont has element +++++++++++++++++++++++++");
+    	res = Response.created(uriInfo.getAbsolutePath()).build();
     }
     TodoDao.instance.getModel().put(todo.getId(), todo);
     return res;
   }
-  
-  
-
 } 
