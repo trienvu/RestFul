@@ -84,5 +84,5 @@ public class TodosResource {
 	public TodoResource getTodo(@PathParam("todo") String id) {
 		return new TodoResource(uriInfo, request, id);
 	}
-
+	
 }
