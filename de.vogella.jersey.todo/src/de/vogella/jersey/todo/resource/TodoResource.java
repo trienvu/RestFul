@@ -33,8 +33,8 @@ public class TodoResource {
   @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
   public Todo getTodo() {
     Todo todo = TodoDao.instance.getModel().get(id);
-    if(todo==null)
-      throw new RuntimeException("Get: Todo with " + id +  " not found");
+   /* if(todo==null)
+      throw new RuntimeException("Get: Todo with " + id +  " not found");*/
     System.out.println("xxx==============================");
     return todo;
   }
@@ -44,8 +44,8 @@ public class TodoResource {
   @Produces(MediaType.TEXT_XML)
   public Todo getTodoHTML() {
     Todo todo = TodoDao.instance.getModel().get(id);
-    if(todo==null)
-      throw new RuntimeException("Get: Todo with " + id +  " not found");
+//    if(todo==null)
+//      throw new RuntimeException("Get: Todo with " + id +  " not found");
     return todo;
   }
   
@@ -59,8 +59,8 @@ public class TodoResource {
   @DELETE
   public void deleteTodo() {
     Todo c = TodoDao.instance.getModel().remove(id);
-    if(c==null)
-      throw new RuntimeException("Delete: Todo with " + id +  " not found");
+//    if(c==null)
+//      throw new RuntimeException("Delete: Todo with " + id +  " not found");
   }
   
   private Response putAndGetResponse(Todo todo) {

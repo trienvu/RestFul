@@ -42,7 +42,7 @@ public class Test {
 					Response.class);
 	    System.out.println("Form response " + response.getEntity());
 	    // Get the all todos, id 4 should be created
-	    System.out.println(service.path("rest").path("todos").request()
+	    System.out.println(service.path("rest").path("todos/7").request()
 	        .accept(MediaType.APPLICATION_XML).get(String.class));
 
 	}
