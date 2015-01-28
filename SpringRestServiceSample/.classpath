@@ -9,29 +9,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-aop-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-aspects-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-beans-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-build-src-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-context-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-context-support-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-core-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-expression-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-framework-bom-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-instrument-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-instrument-tomcat-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-jdbc-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-jms-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-messaging-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-orm-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-oxm-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-test-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-tx-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-web-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-webmvc-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-webmvc-portlet-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/Web/Lib/spring-framework-4.0.6.RELEASE/LibsOnly/spring-websocket-4.0.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

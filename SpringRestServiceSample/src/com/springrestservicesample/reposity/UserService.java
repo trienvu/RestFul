@@ -24,7 +24,7 @@ public class UserService {
 		try {
 			Statement statement = connection.createStatement();
 			ResultSet rs = statement
-					.executeQuery("select * from tblUser limit 15");
+					.executeQuery("select * from tblUser where ROWNUM < 15");
 			while (rs.next()) {
 				User user = new User();
 				user.setUserid(rs.getInt("userid"));

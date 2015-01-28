@@ -18,12 +18,12 @@ public class DBUtility {
 			try {
 				Properties prop = new Properties();
 				InputStream inputStream = DBUtility.class.getClassLoader()
-						.getResourceAsStream("/resources/jdbc.properties");
+						.getResourceAsStream("/jdbc.properties");
 				prop.load(inputStream);
-				String driver = prop.getProperty("driver");
-				String url = prop.getProperty("url");
-				String user = prop.getProperty("user");
-				String password = prop.getProperty("password");
+				String driver = prop.getProperty("jdbc.driverClassName");
+				String url = prop.getProperty("jdbc.url");
+				String user = prop.getProperty("jdbc.username");
+				String password = prop.getProperty("jdbc.password");
 				Class.forName(driver);
 				connection = DriverManager.getConnection(url, user, password);
 			} catch (ClassNotFoundException e) {
