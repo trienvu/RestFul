@@ -1,6 +1,5 @@
 package com.springrestservicesample.reposity;
 
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,16 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.springrestservicesample.domain.User;
-import com.springrestservicesample.utility.DBUtility;
 
-public class UserService {
-
-	private Connection connection;
-
-	public UserService() {
-		connection = DBUtility.getConnection();
-	}
-
+public class UserService implements UserDao {
+	@Override
 	public List<User> getAllUsers() {
 		List<User> users = new ArrayList<User>();
 		try {
@@ -40,6 +32,7 @@ public class UserService {
 		return users;
 	}
 
+	@Override
 	public User getUserById(int userId) {
 		User user = new User();
 		try {

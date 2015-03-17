@@ -1,5 +1,7 @@
 package com.springrestservicesample.domain;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 public class User {
 
 	private int userid;
